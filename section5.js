@@ -47,4 +47,4 @@ console.log(typeof type_s);
 
 //明示的な型変換
 parseFloat('2.34');
-parseInt('33.66');
+parseInt('33.66 ');
