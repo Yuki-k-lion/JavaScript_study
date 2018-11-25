@@ -23,9 +23,9 @@ console.log(msg.length + msg.charAt(3));
 //オブジェクトの値が等しいかどうかは、参照先が等しいかどうかの判定
 var obj_a = [1,2,3];
 var obj_b = [1,2,3];
-var c = a;
-console.log(a == b);
-console.log(a == c);
+var c = obj_a;
+console.log(obj_a == obj_b);
+console.log(obj_a == c);
 
 //&& || a 論理値ではなく、最後に評価した値を返す。
 //そのため、論理和演算子は、複数の値の候補の中から、null,undefined出ない値を選びたい時によく使われる。
