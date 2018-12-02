@@ -30,6 +30,7 @@ console.log(obj_a == c);
 //&& || a 論理値ではなく、最後に評価した値を返す。
 //そのため、論理和演算子は、複数の値の候補の中から、null,undefined出ない値を選びたい時によく使われる。
 var time = time_interval || animationSettings.time || 33;
+
 /*
 time_intervalがてイフィされている場合は、この変数のあたいが利用される。
 定義されていない場合は、animationSettingsオブジェクトのプロパティが利用される。
